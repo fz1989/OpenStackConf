@@ -9,7 +9,7 @@
 #deb-src http://ftp.xdlinux.info/ubuntu/ precise-security main multiverse restricted universe
 #deb-src http://ftp.xdlinux.info/ubuntu/ precise-updates main multiverse restricted universe
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
-deb http://mirrors.ustc.edu.cn/ubuntu/ precise-backports restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse

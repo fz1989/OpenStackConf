@@ -1,0 +1,29 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+#auto wlan0
+#iface wlan0 inet static
+#	address 192.168.12.233
+#	netmask 255.255.255.0
+#	gateway 192.168.12.1
+#	dns-nameserver 8.8.8.8
+#	wpa-ssid Lab912
+#	wpa-psk  Lab1003!
+#Added
+#Management network
+auto eth0
+iface eth0 inet static
+	address 192.168.13.1
+	netmask 255.255.255.0
+
+auto eth1
+iface eth1 inet static
+	address 192.168.1.250
+	netmask 255.255.255.0
+	gateway 192.168.1.1
+	dns-nameserver 8.8.8.8	
